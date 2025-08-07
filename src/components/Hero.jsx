@@ -7,7 +7,7 @@ function Hero() {
         ✨ Smarter Idea, instant solutions
       </div>
 
-      <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+      <h1 className="text-4xl md:text-7xl font-bold leading-tight">
         <span className="text-[#00FFE0]">We are your Software</span>
         <br />
         <span className="inline-flex items-center space-x-2">

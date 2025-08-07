@@ -6,8 +6,8 @@ import { SparklesIcon } from '@heroicons/react/24/solid'
 function Stats() {
   return (
     <section className="bg-white text-black py-16 px-6 md:px-20">
-      <h1 className="text-3xl md:text-4xl font-semibold text-center ">
-        <SparklesIcon className="w-8 h-8 text-teal-400 inline-block" />
+      <h1 className="text-3xl md:text-5xl font-semibold text-center ">
+        <SparklesIcon className="w-10 h-10 text-teal-400 inline-block" />
           At Software Chamber,
         <span className="text-gray-900 font-bold">
           <span className="text-gray-400 font-semibold"> we specialize</span> in<br />
@@ -15,7 +15,7 @@ function Stats() {
         </span>{" "}
         <span className="block text-gray-400 font-semibold mt-2">
           digital solutions 
-              <ArrowTrendingDownIcon className="w-8 h-8 text-black inline-block ml-2"
+              <ArrowTrendingDownIcon className="w-12 h-12 text-black inline-block ml-2"
                 style={{ transform: 'rotate(-180deg)' }}
                />
         </span>

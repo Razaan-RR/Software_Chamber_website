@@ -1,19 +1,30 @@
+import { CircleArrowOutDownRight } from 'lucide-react';
+
 function Process() {
   return (
-    <section className="bg-[#0C101A] text-white py-16 text-center">
-      <h2 className="text-3xl font-bold mb-6">Our Software Development Process</h2>
-      <p className="mb-12">Step-by-step agile process that ensures quality & speed</p>
-      <div className="flex flex-wrap justify-center gap-4 text-sm">
-        <p>Plan</p>
-        <p>Code</p>
-        <p>Build</p>
-        <p>Test</p>
-        <p>Release</p>
-        <p>Deploy</p>
-        <p>Monitor</p>
+    <section className="relative bg-[#0C101A] text-white py-24 px-6 overflow-hidden">
+      <div className="max-w-4xl mx-auto text-center">
+        <div className="inline-block mb-6 px-4 py-1 rounded-full border border-[#25D1C7] text-xs text-white bg-[#25D1C71A] font-medium tracking-wide">
+          <span className="text-teal-400">★</span> Smarter Idea, instant solutions
+        </div>
+        <h1 className="text-5xl font-bold leading-tight text-white mb-4">
+          Our Software<br />
+          <span className="text-[#9CA3AF]">Development Process</span>
+        </h1>
+        <p className="text-[#9CA3AF] max-w-xl mx-auto mb-8">
+          Deliver personalized experiences to your customers with AI-powered recommendation
+          engines and dynamic content generation.
+        </p>
+        <button className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-[#5F5F5F] to-[#1E1E1E] text-white font-semibold shadow-md hover:opacity-90 transition">
+          Contact Us
+          <CircleArrowOutDownRight className="w-5 h-5 ml-2" 
+            style={{ transform: 'rotate(-45deg)' }}
+          />
+        </button>
       </div>
+
     </section>
-  )
+  );
 }
 
-export default Process
+export default Process;
