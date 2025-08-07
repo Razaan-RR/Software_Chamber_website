@@ -38,7 +38,7 @@ export default function FAQ() {
           Comprehensive Answers to the Most{' '}
           <span className="inline-block">
             <SparklesIcon className="w-10 h-10 text-teal-400 inline-block" />
-            <span className="underline">Common Questions</span>
+            <span className="">Common Questions</span>
           </span>{' '}
           <span className="text-gray-400 font-semibold">
             About Our <br />

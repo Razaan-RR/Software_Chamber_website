@@ -8,7 +8,7 @@ import Stack from './components/Stack'
 import Projects from './components/Projects'
 import FAQ from './components/FAQ'
 import Testimonial from './components/Testimonial'
-import ContactForm from './components/ContactForm'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Projects />
       <FAQ />
       <Testimonial />
-      <ContactForm />
+      <Contact />
       <Footer />
     </>
   )
