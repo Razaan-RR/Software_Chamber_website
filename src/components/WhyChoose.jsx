@@ -1,11 +1,10 @@
-import React from 'react'
-import { Cog8ToothIcon } from '@heroicons/react/24/outline'
+import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
 
 const cards = [
-  { title: 'Efficiency', icon: '/assets/why-choose-icon1.png' },
-  { title: 'Adaptability', icon: '/assets/why-choose-icon2.png' },
-  { title: 'Scalability', icon: '/assets/why-choose-icon3.png' },
-  { title: 'Precision', icon: '/assets/why-choose-icon4.png' },
+  { title: 'Efficiency', icon: '/assets/wc-1.png' },
+  { title: 'Adaptability', icon: '/assets/wc-2.png' },
+  { title: 'Scalability', icon: '/assets/wc-3.png' },
+  { title: 'Precision', icon: '/assets/wc-4.png' },
 ]
 
 function WhyChoose() {
@@ -23,31 +22,16 @@ function WhyChoose() {
 
         <div className="mt-8">
           <button className="flex items-center gap-3 px-6 py-2 text-white font-semibold bg-[#00D0B3] rounded-full hover:opacity-90 transition mx-auto">
-            Let’s Discuss
-            <span className="bg-white text-black rounded-full p-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2.5}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
+            Let's Discuss
+            <span className="flex items-center justify-center bg-gray-200 rounded-full p-2">
+              <ArrowUpRightIcon className="w-4 h-4 text-black" />
             </span>
           </button>
         </div>
       </div>
 
-      {/* Cards Section */}
       <div className="relative mt-20 max-w-7xl mx-auto px-4">
-        {/* Left Arrow */}
-        <button className="absolute -left-8 top-1/2 transform -translate-y-1/2 bg-black text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md">
+        <button className="absolute left-10 top-1/2 transform -translate-y-1/6 bg-black text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md z-20">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-4 w-4"
@@ -64,7 +48,6 @@ function WhyChoose() {
           </svg>
         </button>
 
-        {/* Cards */}
         <div className="flex flex-wrap justify-center gap-6 px-8">
           {cards.map((card, index) => (
             <div
@@ -72,9 +55,8 @@ function WhyChoose() {
               className={`bg-[#F5F5F5] p-6 rounded-2xl shadow-md w-[270px] relative 
         ${index % 2 === 0 ? 'translate-y-[-20px]' : 'translate-y-[20px]'}`}
             >
-              {/* Icon in circle */}
               <div className="absolute top-4 right-4 bg-[#00D0B3] w-10 h-10 flex items-center justify-center rounded-full">
-                <img src={card.icon} alt="icon" className="w-6 h-6" />
+                <img src={card.icon} alt="icon" className="w-5 h-5" />
               </div>
               <h3 className="text-lg font-bold mb-2">{card.title}</h3>
               <hr className="border-t border-gray-300 mb-4" />
@@ -86,8 +68,7 @@ function WhyChoose() {
           ))}
         </div>
 
-        {/* Right Arrow */}
-        <button className="absolute -right-8 top-1/2 transform -translate-y-1/2 bg-black text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md">
+        <button className="absolute right-10 top-1/2 transform -translate-y-1/6 bg-black text-white rounded-full w-10 h-10 flex items-center justify-center shadow-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-4 w-4"
