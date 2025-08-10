@@ -65,11 +65,12 @@ function WhyChoose() {
         </button>
 
         {/* Cards */}
-        <div className="flex gap-6 overflow-x-auto scrollbar-hide px-8">
+        <div className="flex flex-wrap justify-center gap-6 px-8">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-[#F5F5F5] p-6 rounded-2xl shadow-md w-[270px] relative"
+              className={`bg-[#F5F5F5] p-6 rounded-2xl shadow-md w-[270px] relative 
+        ${index % 2 === 0 ? 'translate-y-[-20px]' : 'translate-y-[20px]'}`}
             >
               {/* Icon in circle */}
               <div className="absolute top-4 right-4 bg-[#00D0B3] w-10 h-10 flex items-center justify-center rounded-full">

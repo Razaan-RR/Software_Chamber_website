@@ -3,6 +3,7 @@ import { CircleArrowOutDownRight } from 'lucide-react';
 function Process() {
   return (
     <section className="relative bg-[#0C101A] text-white py-24 px-6 overflow-hidden">
+      {/* Top text and button */}
       <div className="max-w-4xl mx-auto text-center">
         <div className="inline-block mb-6 px-4 py-1 rounded-full border border-[#25D1C7] text-xs text-white bg-[#25D1C71A] font-medium tracking-wide">
           <span className="text-teal-400">★</span> Smarter Idea, instant solutions
@@ -28,8 +29,44 @@ function Process() {
         </div>
       </div>
 
+      {/* Process graphic */}
+      <div className="relative mt-24 flex justify-center">
+        {/* Globe background */}
+        <img
+          src="/assets/Planet.png"
+          alt="Globe"
+          className="w-[600px] relative z-0"
+        />
+
+        {/* Steps overlay */}
+        <svg
+          className="absolute top-0 left-1/2 -translate-x-1/2 z-10"
+          width="600"
+          height="300"
+          viewBox="0 0 600 300"
+          fill="none"
+        >
+          {/* Dotted arc */}
+          <path
+            d="M50 250 A250 250 0 0 1 550 250"
+            stroke="#fff"
+            strokeDasharray="4 6"
+            strokeOpacity="0.6"
+            fill="none"
+          />
+
+          {/* Gradient definition */}
+          <defs>
+            <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#5F5F5F" />
+              <stop offset="100%" stopColor="#1E1E1E" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
     </section>
   );
 }
 
 export default Process;
+

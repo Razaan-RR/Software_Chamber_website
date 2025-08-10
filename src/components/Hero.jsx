@@ -3,19 +3,14 @@ import { CircleArrowOutDownRight } from 'lucide-react'
 function Hero() {
   return (
     <section className="relative bg-[#0C101A] text-white text-center py-20 px-6 overflow-hidden">
-      {/* Starry background */}
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-80 z-0"></div>
 
-      {/* Glow overlays */}
       <div className="absolute top-1/4 left-1/3 w-[600px] h-[600px] bg-[#4ade80] opacity-20 rounded-full blur-[180px] z-0"></div>
       <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[#60a5fa] opacity-20 rounded-full blur-[160px] z-0"></div>
 
-      {/* Radial fade effect */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(0,210,255,0.15),_transparent_70%)] pointer-events-none z-0"></div>
 
-      {/* Content */}
       <div className="relative z-10">
-        {/* Tagline */}
         <div className="inline-block mb-6 px-4 py-1 rounded-full border border-[#25D1C7] text-xs text-white bg-[#25D1C71A] font-medium tracking-wide">
           <span className="text-teal-400">★</span> Smarter Idea, instant
           solutions

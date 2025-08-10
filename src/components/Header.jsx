@@ -3,14 +3,11 @@ import { CircleArrowOutDownRight } from 'lucide-react';
 function Header() {
   return (
     <header className="relative bg-[#0C101A] px-6 py-4 flex justify-between items-center text-white z-50 overflow-hidden">
-      {/* Starry background */}
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-80 z-0"></div>
 
-      {/* Glow overlays */}
       <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[#60a5fa] opacity-20 rounded-full blur-[160px] z-0"></div>
 
       
-      {/* Content */}
       <div className="relative z-10 flex justify-between items-center w-full">
         {/* Logo */}
         <div className="flex items-center gap-2 text-xl font-semibold">

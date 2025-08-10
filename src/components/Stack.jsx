@@ -10,7 +10,7 @@ const logos = [
 
 const Stack = () => {
   return (
-    <section className="bg-[#0C101A] text-white py-20 px-8 md:px-24 font-sans">
+    <section className="bg-black text-white py-20 px-8 md:px-24 font-sans">
       <div className="flex flex-col md:flex-row justify-between items-center gap-16">
         <div className="text-left max-w-xl">
           <h1 className="text-4xl md:text-5xl font-semibold leading-snug">
