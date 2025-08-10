@@ -15,12 +15,17 @@ function Process() {
           Deliver personalized experiences to your customers with AI-powered recommendation
           engines and dynamic content generation.
         </p>
-        <button className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-[#5F5F5F] to-[#1E1E1E] text-white font-semibold shadow-md hover:opacity-90 transition">
-          Contact Us
-          <CircleArrowOutDownRight className="w-5 h-5 ml-2" 
-            style={{ transform: 'rotate(-45deg)' }}
-          />
-        </button>
+        <div className="flex justify-center mt-8">
+          <button className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-[#5F5F5F] to-[#1E1E1E] text-white font-semibold shadow-md hover:opacity-95 transition">
+            <span>Contact Us</span>
+            <span className="inline-flex items-center justify-center bg-white p-2 rounded-full">
+              <CircleArrowOutDownRight
+                className="w-4 h-4 text-black"
+                style={{ transform: 'rotate(-45deg)' }}
+              />
+            </span>
+          </button>
+        </div>
       </div>
 
     </section>
