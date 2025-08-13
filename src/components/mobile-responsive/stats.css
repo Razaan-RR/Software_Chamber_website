@@ -1,0 +1,42 @@
+@media (max-width: 640px) {
+  .stats-heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .sparkles-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .arrow-icon {
+    width: 32px;
+    height: 32px;
+    margin-left: 8px;
+  }
+  .stat-number {
+    font-size: 20px;
+  }
+  .feature-desc {
+    font-size: 14px;
+  }
+  .stats-container {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .stats-numbers {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .stats-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .stat-number {
+    font-size: 18px;
+  }
+  .feature-desc {
+    font-size: 12px;
+  }
+}

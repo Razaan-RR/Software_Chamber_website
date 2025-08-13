@@ -1,0 +1,72 @@
+@media (max-width: 640px) {
+  .services-section {
+    padding: 48px 16px;
+  }
+  .services-heading {
+    font-size: 28px;
+  }
+  .services-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .services-btn {
+    font-size: 14px;
+  }
+  .services-btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .service-card {
+    max-width: 100%;
+    padding: 16px;
+    min-height: auto;
+  }
+  .service-title {
+    font-size: 20px;
+  }
+  .service-desc {
+    font-size: 14px;
+  }
+  .service-arrow-btn {
+    width: 48px;
+    height: 48px;
+  }
+  .service-arrow-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .services-heading {
+    font-size: 24px;
+  }
+  .service-title {
+    font-size: 18px;
+  }
+  .service-desc {
+    font-size: 12px;
+  }
+  .services-btn {
+    font-size: 12px;
+  }
+  .services-btn-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .service-arrow-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .service-arrow-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+}

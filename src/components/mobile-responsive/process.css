@@ -1,0 +1,68 @@
+@media (max-width: 640px) {
+  .process-section {
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .process-heading {
+    font-size: 28px;
+  }
+
+  .process-desc {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .process-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .process-btn-icon {
+    padding: 6px;
+  }
+
+  .process-globe {
+    width: 320px;
+  }
+
+  .process-step-label {
+    font-size: 14px;
+  }
+
+  .process-step-number {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .process-heading {
+    font-size: 24px;
+  }
+
+  .process-desc {
+    font-size: 12px;
+  }
+
+  .process-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .process-btn-icon {
+    padding: 4px;
+  }
+
+  .process-step-label {
+    font-size: 12px;
+  }
+
+  .process-step-number {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+}

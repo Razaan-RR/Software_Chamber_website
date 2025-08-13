@@ -1,0 +1,52 @@
+@media (max-width: 640px) {
+  .hero-heading {
+    font-size: 1.75rem; 
+    line-height: 2.25rem;
+  }
+
+  .hero-mini-img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .hero-btn {
+    padding: 0.5rem 1rem; 
+    font-size: 0.875rem;
+  }
+  .hero-btn-icon {
+    padding: 0.25rem;
+  }
+
+  .hero-timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-label-left,
+  .hero-label-right {
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-timeline-box {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .hero-timeline-bar {
+    width: 100% !important;
+    position: static !important;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .hero-btn {
+    font-size: 0.75rem;
+  }
+}
