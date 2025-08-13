@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowTrendingDownIcon } from "@heroicons/react/24/outline";
 import { SparklesIcon } from "@heroicons/react/24/solid";
-import './mobile-responsive/hero.css'
+import './mobile-responsive/stats.css'
 
 
 function Stats() {

@@ -1,3 +1,12 @@
+@media (min-width: 1024px) {
+  .flex-wrap {
+    flex-wrap: nowrap !important;
+  }
+  .flex-wrap > div:nth-child(4) {
+    transform: translateY(0) !important;
+  }
+}
+
 @media (max-width: 640px) {
   section {
     padding-top: 80px;

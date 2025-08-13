@@ -1,4 +1,5 @@
 import { ArrowUpRightIcon } from '@heroicons/react/24/solid'
+import './mobile-responsive/whychoose.css'
 
 const cards = [
   { title: 'Efficiency', icon: '/assets/wc-1.png' },
